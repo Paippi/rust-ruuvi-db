@@ -10,6 +10,5 @@ edition = "2021"
 sqlx = { version = "0.6", features = ["runtime-tokio-rustls", "postgres", "uuid", "decimal"]}
 tokio = { version = "1", features = ["full"]}
 tokio-stream = { version = "0.1.12" }
-# ruuviscanner = { git = "https://github.com/Paippi/ruuviscanner.git" }
-ruuviscanner = { path = "../ruuviscanner" }
+ruuviscanner = { git = "https://github.com/Paippi/ruuviscanner.git" }
 rust_decimal = "1.29.1"
